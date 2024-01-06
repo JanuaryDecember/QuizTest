@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="QuizTest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QuizTest_jar</output-path>
+    <root id="root">
+      <element id="archive" name="QuizTest.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="QuizTest" />
+      </element>
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:fontbox:2.0.30" />
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:pdfbox:2.0.30" />
+    </root>
+  </artifact>
+</component>
